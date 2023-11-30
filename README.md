@@ -2,6 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+This is the template of creating nav bar nextjs routing
+NOde version:18.17.1
+
 First, run the development server:
 
 ```bash

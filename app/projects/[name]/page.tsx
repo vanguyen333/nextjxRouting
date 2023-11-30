@@ -1,7 +1,7 @@
-export default function ProjectDetails() {
+export default function ProjectDetails({ params }) {
   return (
     <main>
-      <h1>Project Name</h1>
+      <h1>Project {params.name}</h1>
     </main>
   );
 }
