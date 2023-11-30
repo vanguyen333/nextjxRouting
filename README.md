@@ -5,6 +5,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 This is the template of creating nav bar nextjs routing
 NOde version:18.17.1
 
+# Questions to remember
+
+1. Explain how does the Next.js routing differe from React.js routing?
+2. What is the purpose of route groups, and how can they be created in Next.js?
+3. What is a dynamic route, and why should we create dynamic routes in web applications?
+
 First, run the development server:
 
 ```bash
