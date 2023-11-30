@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className={styles.nav}>
-        <p>Next.js</p>
+        <p>Next.js14</p>
 
         <ul className={styles.links}>
           <Link href="/">
