@@ -8,8 +8,21 @@ NOde version:18.17.1
 # Questions to remember
 
 1. Explain how does the Next.js routing differe from React.js routing?
-2. What is the purpose of route groups, and how can they be created in Next.js?
-3. What is a dynamic route, and why should we create dynamic routes in web applications?
+
+# React Routing,
+
+import { BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
+
+const App = ()=>{
+<Router>
+<Routes>
+<Route path="/" element={<Home/>}/>
+<Route path="/about" element={<About/>}/>
+<Route path="/contact" element={<Contact/>}/>
+</Routes>
+</Router>
+
+export default App; 2. What is the purpose of route groups, and how can they be created in Next.js? 3. What is a dynamic route, and why should we create dynamic routes in web applications?
 
 First, run the development server:
 
