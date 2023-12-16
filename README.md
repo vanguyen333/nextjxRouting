@@ -1,3 +1,4 @@
+Node 18.17.1
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -38,6 +39,9 @@ page.js or page.jsx
     They help organize routes into logical groups.
     We can crete a route group by enclosing the folder, by enclosing the folder name in parentheses.
 3.  What is a dynamic route, and why should we create dynamic routes in web applications?
+    9:52
+    Dynamic routes, like nested routes, allow more flexibility. The route is determined based on changing data applicationn, so we don't need to predict it beforehand. Ex, if we need to show various project details, we can design a single details page with a consistent layout for all projects. The only difference is that the data or the content will change for each project, so instead of making separate routes for every project details page, you can use a Next.js's dynamic route.
+    To create a dynamic route, we have to wrap all the folder's name in square brackets, symbolizing that it's the same as the name of the folder that the content inside the square bracket is a variable.
 
 First, run the development server:
 
