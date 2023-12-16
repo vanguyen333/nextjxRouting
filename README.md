@@ -34,7 +34,9 @@ For instance, to convert the previous React.js routing example into Next.js
 , we only need to create 2 folders named about and contact. We'll create a special file associated with that route segment inside each folder, such as
 page.js or page.jsx
 
-2.  What is the purpose of route groups, and how can they be created in Next.js?
+2.  What is the purpose of route groups, and how can they be created in Next.js? 16:54
+    They help organize routes into logical groups.
+    We can crete a route group by enclosing the folder, by enclosing the folder name in parentheses.
 3.  What is a dynamic route, and why should we create dynamic routes in web applications?
 
 First, run the development server:
